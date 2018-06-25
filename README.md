@@ -1,2 +1,2 @@
 # WisprDevOps
-Bash scripts for installing and updating various Wispr-related applications on Debian/Ubuntu.
+Collections of scripts and tools to maintain various Wispr related services.
