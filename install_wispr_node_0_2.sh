@@ -17,8 +17,8 @@ make -f makefile.unix;
 
 echo '## Configuring wallet.';
 mkdir ~/.wispr && cd ~/.wispr; && touch wispr.conf;
-echo "maxconection=16" >> wispr.conf;
-echo "dameon=1" >> wispr.conf;
+echo "maxconnection=16" >> wispr.conf;
+echo "daemon=1" >> wispr.conf;
 echo "rpcusername="$(openssl rand -base64 32) >> wispr.conf;
 echo "rpcpassword="$(openssl rand -base64 32) >> wispr.conf;
 
