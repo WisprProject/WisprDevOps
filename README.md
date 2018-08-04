@@ -8,11 +8,20 @@ Script to automatticly install berkley version 0.4.8.
 Usage: `./install_berkley_0_4_8.sh /home/guus/berkley` <-- Parameter is the install directory.
 
 
-**[Install Wispr node 0.2](https://raw.githubusercontent.com/WisprProject/WisprDevOps/master/install_wispr_node_0_2.sh)**
+**[Build Wispr node 0.2](https://raw.githubusercontent.com/WisprProject/WisprDevOps/master/install_wispr_node_0_2.sh)**
 
 Script automatically fetches, compiles, configures and starts a Wispr node v0.2.
 
 Usage: `./install_wispr_node_0_2.sh`
+
+
+**[Build Wispr node 0.3](https://github.com/WisprProject/WisprDevOps/raw/master/install_wispr_node_0_3.sh)**
+
+Script installs all required packages, pulls source and compiles it.
+
+Need berkley install path as parameters.
+
+Usage example: ``./install_wispr_node_0_3.sh /home/guus/berkelydb`
 
 
 **[Rebuild Wispr node 0.3](https://github.com/WisprProject/WisprDevOps/raw/master/rebuild_0_3_0_node.sh)**

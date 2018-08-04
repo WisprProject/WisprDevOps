@@ -3,6 +3,7 @@ if [ -z "$1" ]
 then
     echo "Need the installation directory as parameter.";
     echo "Usage: ./install_berkley_0_4_8.sh /home/guus/berkley";
+    echo "NOTE: make sure the folder exists."
     exit 1;
 fi
 if [ -z "$2" ]
