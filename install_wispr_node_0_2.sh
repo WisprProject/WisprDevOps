@@ -16,7 +16,7 @@ git checkout v0.2.0;
 make -f makefile.unix;
 
 echo '## Configuring wallet.';
-mkdir ~/.wispr && cd ~/.wispr; && touch wispr.conf;
+mkdir ~/.wispr && cd ~/.wispr && touch wispr.conf;
 echo "maxconnection=16" >> wispr.conf;
 echo "daemon=1" >> wispr.conf;
 echo "rpcusername="$(openssl rand -base64 32) >> wispr.conf;

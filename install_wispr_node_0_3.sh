@@ -29,7 +29,7 @@ git checkout 0.3_RC;
 ./autogen.sh && ./configure LDFLAGS="-L$1/lib/" CPPFLAGS="-I$1/include/" && make -j$COREAMOUNT;
 
 echo '## Configuring wallet.';
-mkdir ~/.wispr && cd ~/.wispr; && touch wispr.conf;
+mkdir ~/.wispr && cd ~/.wispr && touch wispr.conf;
 echo "maxconnection=16" >> wispr.conf;
 echo "daemon=1" >> wispr.conf;
 echo "rpcusername="$(openssl rand -base64 32) >> wispr.conf;
