@@ -21,7 +21,7 @@ Script installs all required packages, pulls source and compiles it.
 
 Need berkley install path as parameters.
 
-Usage example: ``./install_wispr_node_0_3.sh /home/guus/berkelydb`
+Usage example: `./install_wispr_node_0_3.sh /home/guus/berkelydb`
 
 
 **[Rebuild Wispr node 0.3](https://github.com/WisprProject/WisprDevOps/raw/master/rebuild_0_3_0_node.sh)**
