@@ -5,7 +5,7 @@ sudo apt install git libqrencode-dev libssl-dev libdb++-dev libminiupnpc-dev bui
 
 echo '## Increasing swap size.';
 read -r -p "Do want to create a /swapfile of 1G in order to make sure the machine has anough RAM to compile the wallet? (Mainly used for devices with a small amount of ram)  [y/N] " response
-if [[ $response = y ]] ; then
+if [[ $response = y ]]
 then
 	sudo swapoff -a && sudo dd if=/dev/zero of=/swapfile bs=1M count=1024 && sudo mkswap /swapfile && sudo swapon /swapfile;
 fi
